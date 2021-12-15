@@ -7,7 +7,6 @@ const MatrixComponent = () => {
 
   const changeColorToRed = (item) => {
     colorChangeClass = `.item-${item}`;
-    console.log(colorChangeClass);
   };
 
   return (
